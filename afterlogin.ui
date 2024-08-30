@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AfterLogin</class>
+ <widget class="QDialog" name="AfterLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>675</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog
+{
+	background-color:#353935;
+}</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>30</y>
+     <width>141</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	border:0;
+	background-color:transparent;
+	color:white;
+	font: 700 12pt &quot;Segoe UI&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>VEHICLE SELECT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bmwbutton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BMW</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mercedesbuton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>160</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mercedes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="audibutton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>80</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Audi</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="a4line_edit">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	border:0;
+	background-color:transparent;
+	color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Audi A4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a4button">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>210</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="a6line_edit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	border:0;
+	background-color:transparent;
+	color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Audi A6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a6button">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>210</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="a4price">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	border:0;
+	color:white;
+	font: 700 11pt &quot;Segoe UI&quot;;
+	background-color:transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string>41.000,- EUR</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="a6price">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>180</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	border:0;
+	color:white;
+	font: 700 11pt &quot;Segoe UI&quot;;
+	background-color:transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string>54.100,- EUR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="allcars">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>20</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>D:/test/shop.png</normaloff>D:/test/shop.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>19</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="a7line_edit">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>160</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	border:0;
+	background-color:transparent;
+	color:white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Audi A7</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="a7price">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>180</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+{
+	border:0;
+	color:white;
+	font: 700 11pt &quot;Segoe UI&quot;;
+	background-color:transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string>69.100,- EUR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="a7button">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>210</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>50</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="namebuton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>20</y>
+     <width>131</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border :2px solid white;
+font: 700 8pt &quot;Segoe UI&quot;;
+background-color:transparent;
+color:white;
+style-font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="logoutbuton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>60</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border :2px solid white;
+font: 700 8pt &quot;Segoe UI&quot;;
+background-color:transparent;
+color:white;
+style-font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>Log out</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="audia4label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/audia4.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="audia6label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/audia6.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="audia7label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>80</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/audia7.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bmw3erlabel">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/bmw3er.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bmw5erlabel">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/bmw5er.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bmw7erlabel">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>80</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/bmw7er.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mercedescclass">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/mercedescclass.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mercedeseclass">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/mercedeseclass.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mercedessclass">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>80</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/mercedessclass.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nume">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>280</y>
+     <width>421</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+
+{
+	border:0;
+	color:white;
+	background-color:transparent;
+	font: 10pt &quot;Segoe UI&quot;;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string>Not sure what car you want to get? Press the button in the corner, </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>300</y>
+     <width>411</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+
+{
+	border:0;
+	color:white;
+	background-color:transparent;
+	font: 10pt &quot;Segoe UI&quot;;
+	font: 700 10pt &quot;Segoe UI&quot;;
+}</string>
+   </property>
+   <property name="text">
+    <string> answer the questions and we will help you.</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>280</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	font: 700 10pt &quot;Segoe UI&quot;;
+    background-color: #4CAF50; /* Verde deschis */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* Verde un pic mai închis la hover */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="porschebuton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Porsche</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cayman_label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/cayman.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="carera_label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>121</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/911.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="panamera_label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>80</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/panamera.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

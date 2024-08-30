@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuestionDialog</class>
+ <widget class="QDialog" name="QuestionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>570</width>
+    <height>321</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog
+{
+	background-color:#353935;
+}</string>
+  </property>
+  <widget class="QLineEdit" name="question">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+
+{
+font: 700 italic 12pt &quot;Segoe UI&quot;;
+	border:0;
+	color:white;
+	background-color:transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string>What type of car do you prefer?</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="sport">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>231</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Sport</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="sedan">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Sedan</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="suv">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>200</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>Luxury</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>270</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border :2px solid white;
+font: 700 10pt &quot;Segoe UI&quot;;
+background-color:transparent;
+color:white;
+style-font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="sport2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>89</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>180-350 HP</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="suv2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>200</y>
+     <width>89</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>400-500 HP</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>89</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>510-635 HP</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="sport3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>40000-50000,- EUR</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="sedan3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>52000-62000,- EUR</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="suv3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>200</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QRadioButton
+{
+	color:white;
+	
+}</string>
+   </property>
+   <property name="text">
+    <string>85000-120000,- EUR</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="recomandare">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>261</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit
+
+{
+font: 700 italic 12pt &quot;Segoe UI&quot;;
+	border:0;
+	color:white;
+	background-color:transparent;
+}</string>
+   </property>
+   <property name="text">
+    <string>We recommend the car:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="audia4">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>221</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/a4facelift.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mainmenu">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>260</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border :2px solid white;
+font: 700 10pt &quot;Segoe UI&quot;;
+background-color:transparent;
+color:white;
+style-font:bold;
+}</string>
+   </property>
+   <property name="text">
+    <string>To Main Menu</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sclass">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>251</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>D:/test/mercedessclass.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>241</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>271</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
